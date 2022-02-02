@@ -5,8 +5,8 @@ function submit() {
     if (x == "foo") {
      let  y = "foo2";  // LET makes it a LOCAL scope, without definining with let or const makes it GLOBAL SCOPE
     }
-    console.log(x); // 'foo'
-    console.log(y); // 'Reference error'
+    console.log(x); //  RETURNS FOO
+    console.log(y); // RETURNS REFERENCE ERROR WITH "LET", WITHOUT "LET", RETURNS FOO2
   }
   submit();
 
